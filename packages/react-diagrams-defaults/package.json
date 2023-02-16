@@ -1,0 +1,47 @@
+{
+	"name": "@bananacloud/react-diagrams-defaults",
+	"version": "7.1.0",
+	"author": {
+  "name": "Jeremy Lu",
+  "email": "DrkCoater@gmail.com"
+},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bananacloud/react-diagrams.git"
+	},
+	"scripts": {
+		"clean": "rimraf ./dist",
+		"build": "../../node_modules/.bin/webpack"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"web",
+		"diagram",
+		"diagrams",
+		"react",
+		"typescript",
+		"flowchart",
+		"simple",
+		"links",
+		"nodes"
+	],
+	"main": "./dist/index.umd.js",
+	"module": "./dist/index.js",
+	"typings": "./dist/@types/index",
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.*",
+		"@bananacloud/geometry": "workspace:*",
+		"@bananacloud/react-canvas-core": "workspace:*",
+		"@bananacloud/react-diagrams-core": "workspace:*",
+		"lodash": "^4.17.21",
+		"react": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.191",
+		"@types/react": "^18.0.27"
+	}
+}
