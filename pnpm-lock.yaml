@@ -58,8 +58,8 @@ importers:
       mini-css-extract-plugin: ^2.6.0
       pathfinding: ^0.4.18
       paths-js: ^0.4.11
-      react: ^17.0.2
-      react-dom: ^17.0.2
+      react: ^18
+      react-dom: ^18
       react-redux: ^8.0.1
       react-to-webcomponent: ^1.6.0
       redux: ^4.2.0
@@ -75,9 +75,9 @@ importers:
     dependencies:
       '@bananacloud/react-canvas-core': link:../../packages/react-canvas-core
       '@bananacloud/react-diagrams': link:../../packages/react-diagrams
-      '@emotion/react': 11.10.5_nlbxfjw4jrl6hitjbl5x3wqfx4
-      '@emotion/styled': 11.10.5_xtazslpl7jkl2kna5wya5yak6e
-      '@reduxjs/toolkit': 1.9.2_3m5k4ry2nwm36zz5ojtujpfkvq
+      '@emotion/react': 11.10.5_wkiylh6bncbdhwh6tncqb3s2nm
+      '@emotion/styled': 11.10.5_cjinou6kcnbro54hfk33pnlsly
+      '@reduxjs/toolkit': 1.9.2_k4ae6lp43ej6mezo3ztvx6pykq
       '@types/react': 18.0.28
       axios: 0.24.0
       closest: 0.0.1
@@ -85,9 +85,9 @@ importers:
       lodash: 4.17.21
       pathfinding: 0.4.18
       paths-js: 0.4.11
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-redux: 8.0.5_3s2v4y5c7xvzmtkneyk5fw2eli
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-redux: 8.0.5_s372u7p65oq7za7vcs4kbbft3q
       react-to-webcomponent: 1.7.2
       redux: 4.2.1
       resize-observer-polyfill: 1.5.1
@@ -777,31 +777,6 @@ packages:
     resolution: {integrity: sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==}
     dev: false
 
-  /@emotion/react/11.10.5_nlbxfjw4jrl6hitjbl5x3wqfx4:
-    resolution: {integrity: sha512-TZs6235tCJ/7iF6/rvTaOH4oxQg2gMAcdHemjwLKIjKz4rRuYe1HJ2TQJKnAcRAfOUDdU8XoDadCe1rl72iv8A==}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-      '@types/react': '*'
-      react: '>=16.8.0'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/core': 7.20.12
-      '@babel/runtime': 7.20.13
-      '@emotion/babel-plugin': 11.10.5_@babel+core@7.20.12
-      '@emotion/cache': 11.10.5
-      '@emotion/serialize': 1.1.1
-      '@emotion/use-insertion-effect-with-fallbacks': 1.0.0_react@17.0.2
-      '@emotion/utils': 1.2.0
-      '@emotion/weak-memoize': 0.3.0
-      '@types/react': 18.0.28
-      hoist-non-react-statics: 3.3.2
-      react: 17.0.2
-    dev: false
-
   /@emotion/react/11.10.5_wkiylh6bncbdhwh6tncqb3s2nm:
     resolution: {integrity: sha512-TZs6235tCJ/7iF6/rvTaOH4oxQg2gMAcdHemjwLKIjKz4rRuYe1HJ2TQJKnAcRAfOUDdU8XoDadCe1rl72iv8A==}
     peerDependencies:
@@ -866,41 +841,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@emotion/styled/11.10.5_xtazslpl7jkl2kna5wya5yak6e:
-    resolution: {integrity: sha512-8EP6dD7dMkdku2foLoruPCNkRevzdcBaY6q0l0OsbyJK+x8D9HWjX27ARiSIKNF634hY9Zdoedh8bJCiva8yZw==}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-      '@emotion/react': ^11.0.0-rc.0
-      '@types/react': '*'
-      react: '>=16.8.0'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/core': 7.20.12
-      '@babel/runtime': 7.20.13
-      '@emotion/babel-plugin': 11.10.5_@babel+core@7.20.12
-      '@emotion/is-prop-valid': 1.2.0
-      '@emotion/react': 11.10.5_nlbxfjw4jrl6hitjbl5x3wqfx4
-      '@emotion/serialize': 1.1.1
-      '@emotion/use-insertion-effect-with-fallbacks': 1.0.0_react@17.0.2
-      '@emotion/utils': 1.2.0
-      '@types/react': 18.0.28
-      react: 17.0.2
-    dev: false
-
   /@emotion/unitless/0.8.0:
     resolution: {integrity: sha512-VINS5vEYAscRl2ZUDiT3uMPlrFQupiKgHz5AA4bCH1miKBg4qtwkim1qPmJj/4WG6TreYMY111rEFsjupcOKHw==}
-    dev: false
-
-  /@emotion/use-insertion-effect-with-fallbacks/1.0.0_react@17.0.2:
-    resolution: {integrity: sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==}
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      react: 17.0.2
     dev: false
 
   /@emotion/use-insertion-effect-with-fallbacks/1.0.0_react@18.2.0:
@@ -1232,7 +1174,7 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@reduxjs/toolkit/1.9.2_3m5k4ry2nwm36zz5ojtujpfkvq:
+  /@reduxjs/toolkit/1.9.2_k4ae6lp43ej6mezo3ztvx6pykq:
     resolution: {integrity: sha512-5ZAZ7hwAKWSii5T6NTPmgIBUqyVdlDs+6JjThz6J6dmHLDm6zCzv2OjHIFAi3Vvs1qjmXU0bm6eBojukYXjVMQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
@@ -1244,8 +1186,8 @@ packages:
         optional: true
     dependencies:
       immer: 9.0.19
-      react: 17.0.2
-      react-redux: 8.0.5_3s2v4y5c7xvzmtkneyk5fw2eli
+      react: 18.2.0
+      react-redux: 8.0.5_s372u7p65oq7za7vcs4kbbft3q
       redux: 4.2.1
       redux-thunk: 2.4.2_redux@4.2.1
       reselect: 4.1.7
@@ -4586,6 +4528,7 @@ packages:
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /object-inspect/1.12.3:
     resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
@@ -4984,15 +4927,14 @@ packages:
       unpipe: 1.0.0
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.2.0
+      scheduler: 0.23.0
     dev: false
 
   /react-is/16.13.1:
@@ -5002,7 +4944,7 @@ packages:
   /react-is/18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
 
-  /react-redux/8.0.5_3s2v4y5c7xvzmtkneyk5fw2eli:
+  /react-redux/8.0.5_s372u7p65oq7za7vcs4kbbft3q:
     resolution: {integrity: sha512-Q2f6fCKxPFpkXt1qNRZdEDLlScsDWyrgSj0mliK59qU6W5gvBiKkdMEG2lJzhd1rCctf0hb6EtePPLZ2e0m1uw==}
     peerDependencies:
       '@types/react': ^16.8 || ^17.0 || ^18.0
@@ -5028,23 +4970,15 @@ packages:
       '@types/react': 18.0.28
       '@types/use-sync-external-store': 0.0.3
       hoist-non-react-statics: 3.3.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
       redux: 4.2.1
-      use-sync-external-store: 1.2.0_react@17.0.2
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
   /react-to-webcomponent/1.7.2:
     resolution: {integrity: sha512-WygyrXeH4RSWZ3TFPMXlJUM7K8YOUxe3Y44/KwGwS4YUz7b93nvrZ0dfvyUOO0zdiNpYHfaPUtnWjcpwsO8GhA==}
-    dev: false
-
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /react/18.2.0:
@@ -5321,11 +5255,10 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /schema-utils/3.1.1:
@@ -5885,7 +5818,7 @@ packages:
       micromatch: 4.0.5
       semver: 7.3.8
       typescript: 4.9.5
-      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack: 5.75.0_webpack-cli@5.0.1
     dev: true
 
   /tslib/2.5.0:
@@ -5988,12 +5921,12 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /use-sync-external-store/1.2.0_react@17.0.2:
+  /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 17.0.2
+      react: 18.2.0
     dev: false
 
   /util-deprecate/1.0.2:
@@ -6142,7 +6075,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
-      webpack: 5.75.0_webpack-cli@4.10.0
+      webpack: 5.75.0_webpack-cli@5.0.1
     dev: true
 
   /webpack-dev-server/4.11.1_pda42hcaj7d62cr262fr632kue:
